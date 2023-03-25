@@ -63,6 +63,7 @@ h1 {
     "aboutme aboutmetext"
     "projects-title projects";
     grid-template-columns: 1fr 2fr;
+    column-gap: 1em;
 }
 
 .sub-title {
@@ -71,6 +72,7 @@ h1 {
 
 .bio {
     grid-area: aboutmetext;
+    background-color: #758EB7;
 }
 
 .projects-title {
@@ -79,4 +81,19 @@ h1 {
 
 .projects {
     grid-area: projects;
+    background-color: #758EB7;
+    display: flex;
+    padding: 10px;
 }
+
+.box {
+    display: flex;
+    border: 3px solid #A5CAD2;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+
+
+
