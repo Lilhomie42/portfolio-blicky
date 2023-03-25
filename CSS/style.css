@@ -56,3 +56,27 @@ h1 {
     color: #E9EBFF;
     font-size: 20px;
 }
+
+.page {
+    display: grid;
+    grid-template-areas: 
+    "aboutme aboutmetext"
+    "projects-title projects";
+    grid-template-columns: 1fr 2fr;
+}
+
+.sub-title {
+    grid-area: aboutme;
+}
+
+.bio {
+    grid-area: aboutmetext;
+}
+
+.projects-title {
+    grid-area: projects-title;
+}
+
+.projects {
+    grid-area: projects;
+}
