@@ -11,6 +11,9 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #6F5F90;
+    color: #E9EBFF;
+    flex-wrap: wrap;
 }
 
 .head-nav {
@@ -23,11 +26,31 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    list-style: none;
+    text-decoration: none;
+
 }
 
 .nav-links {
     margin: 0 1em;
+    text-decoration: none;
+    
 }
+
+.nav-title {
+    text-decoration: none;
+    color: #E9EBFF;
+    font-size: 16px;
+}
+
+.nav-title:hover {
+    color: indigo;
+}
+ .title-name {
+    font-size: 2.5em;
+    padding: 5px;
+    border: 3px solid indigo;
+ }
 
 /* header {
     display: grid;
