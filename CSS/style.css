@@ -8,10 +8,118 @@ body {
 }
 
 header {
-    display: grid;
-    grid-template-areas: "header nav ";
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    background-color: #6F5F90;
+    color: #E9EBFF;
+    flex-wrap: wrap;
+}
+
+.head-nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.head-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.nav-links {
+    margin: 0 1em;
+    text-decoration: none;
+    
+}
+
+.nav-title {
+    text-decoration: none;
+    color: #E9EBFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-title:hover {
+    color: indigo;
+}
+ .title-name {
+    font-size: 2.5em;
+    padding: 5px;
+    border: 3px solid indigo;
+ }
+
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.page {
+    display: grid;
+    grid-template-areas: 
+    "about bio"
+    "projects-title projects";
+    grid-template-columns: 1fr 2fr;
+    row-gap: 4em;
+    column-gap: 1em;
+    padding-top: 20px;
+}
+
+.sub-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 4px solid lightsteelblue;
+    margin: 5px;
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.projects-title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-right: 4px solid lightsteelblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 4;
+}
+
+.card {
+    border: 2px solid violet;
+    border-radius: 5px;
+    padding: 10px;
+    flex: 0 2 440px;
+    margin: 17px;
+    background-color: azure;
+}
+
+
+/* header {
+    display: grid;
+    grid-template-areas: "header header nav nav";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-self: center;
     margin: 0;
     padding: 0;
     background-color: #6F5F90;
@@ -64,6 +172,7 @@ h1 {
     "projects-title projects";
     grid-template-columns: 1fr 2fr;
     column-gap: 1em;
+    align-items: stretch;
 }
 
 .sub-title {
@@ -84,6 +193,7 @@ h1 {
     background-color: #758EB7;
     display: flex;
     padding: 10px;
+    
 }
 
 .box {
@@ -92,7 +202,13 @@ h1 {
     flex: 1;
     flex-wrap: wrap;
     margin: 10px;
+    width: 200px;
+
 }
+
+.big-box {
+    flex-basis: auto;
+} */
 
 
 
