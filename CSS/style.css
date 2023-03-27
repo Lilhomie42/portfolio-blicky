@@ -95,6 +95,25 @@ header {
     padding: 10px;
     margin: 5px;
 }
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 4;
+}
+
+.card {
+    border: 2px solid violet;
+    border-radius: 5px;
+    padding: 10px;
+    flex: 0 2 440px;
+    margin: 17px;
+    background-color: azure;
+}
+
+
 /* header {
     display: grid;
     grid-template-areas: "header header nav nav";
