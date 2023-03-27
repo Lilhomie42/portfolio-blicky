@@ -98,21 +98,38 @@ header {
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* .projects {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex: 4;
-}
+} */
 
-.card {
+/* .card {
     border: 2px solid violet;
     border-radius: 5px;
     padding: 10px;
-    flex: 0 2 440px;
     margin: 17px;
     background-color: azure;
-}
+} */
 
+/* .card header, .big header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #ffffff;
+} */
 
 /* header {
     display: grid;
