@@ -65,9 +65,36 @@ header {
     "about bio"
     "projects-title projects";
     grid-template-columns: 1fr 2fr;
-    row-gap: 1em;
+    row-gap: 4em;
+    column-gap: 1em;
+    padding-top: 20px;
 }
 
+.sub-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 4px solid lightsteelblue;
+    margin: 5px;
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.projects-title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-right: 4px solid lightsteelblue;
+    padding: 10px;
+    margin: 5px;
+}
 /* header {
     display: grid;
     grid-template-areas: "header header nav nav";
