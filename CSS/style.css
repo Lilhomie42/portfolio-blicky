@@ -22,7 +22,7 @@ header {
 
 }
 
-.head-nav ul {
+.head-nav ul, .contact-li {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,13 +31,13 @@ header {
 
 }
 
-.nav-links {
+.nav-links, .contact-links {
     margin: 0 1em;
     text-decoration: none;
 
 }
 
-.nav-title {
+.nav-title, .contact-info {
     text-decoration: none;
     color: #E9EBFF;
     font-size: 16px;
@@ -66,9 +66,9 @@ header {
         "about bio"
         "projects-title projects";
     grid-template-columns: 1fr 2fr;
-    row-gap: 4em;
+    row-gap: 4.5em;
     column-gap: 1em;
-    padding-top: 20px;
+    padding-top: 4.5em;
     background-color: #323050;
     color: #E9EBFF;
 }
@@ -80,6 +80,7 @@ header {
     padding: 10px;
     border-right: 4px solid lightsteelblue;
     margin: 5px;
+    font-size: 2em;
 
 }
 
@@ -88,6 +89,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    margin: 1em;
 }
 
 .projects-title {
@@ -97,13 +99,15 @@ header {
     border-right: 4px solid lightsteelblue;
     padding: 10px;
     margin: 5px;
+    font-size: 2em;
 }
 
 .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
+    margin: 1em;
 }
 
 img {
@@ -126,6 +130,18 @@ img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+footer {
+    background-color: #6F5F90;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+
 
 @media screen and (max-width: 768px) {
     #header {
